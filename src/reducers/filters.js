@@ -13,7 +13,7 @@ export default (state = filterReducerDefaultState, action) => {
     case 'SET_TEXT_FILTER':
       return {
         ...state,
-        text: action.filter_text
+        text: action.text
       }
     case 'SORT_BY_AMOUNT':
       return {
@@ -28,12 +28,12 @@ export default (state = filterReducerDefaultState, action) => {
     case 'SET_START_DATE':
       return {
         ...state,
-        startDate: action.sDate
+        startDate: action.startDate
       }    
     case 'SET_END_DATE':
       return {
         ...state,
-        endDate: action.eDate
+        endDate: action.endDate
       }
     default:
       return state;
