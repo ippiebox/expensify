@@ -1,6 +1,5 @@
 .DS_Store
 .babelrc
-yarn.lock
 node_modules/
 src/.DS_Store
 public/bundle.js
