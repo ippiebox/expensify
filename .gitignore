@@ -1,5 +1,4 @@
 .DS_Store
-.babelrc
 node_modules/
 src/.DS_Store
 public/bundle.js
