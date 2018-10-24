@@ -3,3 +3,7 @@
 yarn.lock
 node_modules/
 src/.DS_Store
+public/bundle.js
+public/bundle.js.map
+public/styles.css
+public/styles.css.map
